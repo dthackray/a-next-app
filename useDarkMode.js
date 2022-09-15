@@ -18,7 +18,7 @@ function useDarkMode() {
         }
     }, [theme])
 
-    return [colorTheme, setTheme]
+    return {colorTheme, setTheme}
 }
 
 export default useDarkMode
